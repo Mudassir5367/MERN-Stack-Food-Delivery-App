@@ -9,12 +9,12 @@ export default function Carousel() {
     <div className ='carousel-caption' style={{zIndex:"10"}}>
     <form className ="d-flex">
       <input className ="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button className ="btn btn-outline-success" style={{backgroundColor:'success',color:'white'}} type="submit">Search</button>
+      <button className ="btn btn-outline-success bg-success" style={{backgroundColor:'success',color:'white'}} type="submit">Search</button>
     </form>
     </div>
 
     <div className="carousel-item active">
-      <img src="https://source.unsplash.com/random/900×700/?burger" style={{filter:'brightness(30%)',width:'100%',height:'75vh',backgroundPosition:'center',backgroundSize:'cover'}} className="d-block w-100" alt="..."/>
+      <img src="https://source.unsplash.com/random/900×700/?burger" style={{filter:'brightness(30%)',width:'100%',height:'80vh',backgroundPosition:'center',backgroundSize:'cover'}} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
       <img src="https://source.unsplash.com/random/900×700/?pasta" style={{filter:'brightness(30%)',width:'100%',height:'75vh',backgroundPosition:'center',backgroundSize:'cover'}}  className="d-block w-100" alt="..."/>
