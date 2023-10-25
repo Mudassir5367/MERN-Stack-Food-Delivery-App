@@ -14,6 +14,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import SignUp from './screens/SignUp';
 import { CartProvider } from './Components/ContextReducer';
+import Cart from './screens/Cart';
 
 function App() {
   return (
