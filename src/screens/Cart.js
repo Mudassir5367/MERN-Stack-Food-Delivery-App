@@ -5,7 +5,7 @@ import { useCart, useDispatchCart } from '../Components/ContextReducer';
 export default function Cart() {
     const data = useCart()
     const dispatch = useDispatchCart();
-    if(data.length == 0){
+    if(data.length === 0){
         return(
             <>
                 <div className='m-5 w-100 text-center fs-3'>The Cart is Empty!</div>

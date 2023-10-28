@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge'
 import Modal from '../Modal';
+import Cart from '../screens/Cart';
 
 export default function Navbar() {
   const [cartView, setCartView] = useState(false)
