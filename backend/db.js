@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const mongoURI = 'mongodb+srv://gofood:gofood123@cluster0.5qomacg.mongodb.net/gofooddb?retryWrites=true&w=majority'
 // const mongoURI = 'mongodb://gofood:gofood123@ac-kncpz4e-shard-00-00.5qomacg.mongodb.net:27017,ac-kncpz4e-shard-00-01.5qomacg.mongodb.net:27017,ac-kncpz4e-shard-00-02.5qomacg.mongodb.net:27017/gofooddb?ssl=true&replicaSet=atlas-hatr6w-shard-0&authSource=admin&retryWrites=true&w=majority'
+// const mongoURI = mongoose.connect('mongodb://127.0.0.1:27017/gofooddb');
 const connectMongoDb = async()=>{
     await mongoose.connect(mongoURI,{useNewUrlParser: true}, async(err,result)=>{
         if(err) console.log('error occur',err);
